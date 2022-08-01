@@ -551,9 +551,9 @@ p {
     grid-template-rows: repeat(1, auto);
     ;
     grid-template-areas:
-      "header"
-      " main"
-      "footer ";
+      "header header"
+      " main main"
+      "footer footer ";
   }
 
   .boton1 {
