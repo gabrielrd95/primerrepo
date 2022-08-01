@@ -400,12 +400,22 @@ p {
 }
 
 .nav_color {
-  background: black;
+  color: white;
 }
 
 .nav-link {
-  background: black;
+
   color: white;
+}
+
+.formulario2 {
+  margin: 20px;
+
+}
+
+.buscador1 {
+  margin: 20px;
+  color: black
 }
 
 
@@ -417,9 +427,16 @@ p {
     grid-template-rows: repeat(1, auto);
     ;
     grid-template-areas:
-      "header"
-      " main"
-      "footer ";
+      "header header"
+      " main main"
+      "footer main";
+  }
+
+  .card {
+
+    width: 1000px;
+
+
   }
 
   p {
