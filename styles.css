@@ -72,6 +72,18 @@ nav ul li {
   position: relative;
 }
 
+.navegador {
+  background-color: 0, 0, 0, 0.5;
+
+}
+
+.navbar-toggler-icon {}
+
+.navbar-toggler {
+  background-color: white;
+  color: black;
+}
+
 /* letras parrafos y botones */
 h1 {
   font-size: 3em;
