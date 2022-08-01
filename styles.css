@@ -72,18 +72,6 @@ nav ul li {
   position: relative;
 }
 
-.navegador {
-  background-color: 0, 0, 0, 0.5;
-
-}
-
-.navbar-toggler-icon {}
-
-.navbar-toggler {
-  background-color: white;
-  color: black;
-}
-
 /* letras parrafos y botones */
 h1 {
   font-size: 3em;
@@ -399,6 +387,27 @@ p {
   height: 100px;
   margin-right: 15px;
 }
+
+/* contenido de edicion para boostraps */
+.navegador {
+  background-color: 0, 0, 0, 0.5;
+
+}
+
+.navbar-toggler {
+  background-color: white;
+  color: black;
+}
+
+.nav_color {
+  background: black;
+}
+
+.nav-link {
+  background: black;
+  color: white;
+}
+
 
 /* responsive */
 @media(max-width: 780px) {
