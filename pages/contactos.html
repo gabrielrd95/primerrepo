@@ -59,44 +59,89 @@
         </nav>
     </header>
     <main>
-        <div class="divcontactos">
-            <!-- formulario de contacto -->
-            </form>
-            <form action="">
-                <section class="contacto">
-                    <div class="contacto_img">
-                        <img src="../imagenes/tefondo.jpg" alt="imagen de contacto" class="contacto_imagenen">
+        <div class="row g-3">
+            <div class="col-sm-6">
+                <label for="firstName" class="form-label">nombre:</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                    el nombre es requerido.
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <label for="lastName" class="form-label">apellido:</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                    el apellido es requerido.
+                </div>
+            </div>
+
+            <div class="col-12">
+                <label for="username" class="form-label">nombre de usuario</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                    <div class="invalid-feedback">
+                        su nombre de usuario.
                     </div>
-                    <div class="contacto_1">
-                        <h1 class=" contacto_titulo">formulario de contacto</h1>
-                        <form action="" class="contacto_formulario">
-                            <div class="contacto_2">
-                                <label for="name" class="contacto_label">nombre:</label>
-                                <input type="text" nombre="nombre" id="nombre" class="contacto_input">
-                            </div>
-                            <div class="contacto_2">
-                                <label for="email" class="contacto_label">Email:</label>
-                                <input type="email" name="email" id="email" class="contacto_input">
-                            </div>
-                            <div class="contacto_2">
-                                <label for="tema" class="contacto_label">tema:</label>
-                                <input type="text" name="tema" id="tema" class="contacto_input">
-                            </div>
-                            <div class="contacto_2">
-                                <label for="message" class="contacto_label">mensaje:</label>
-                                <textarea type="text" nombre="mensaje" id="mensaje"
-                                    class="contacto_textarea"></textarea>
-                            </div>
-                            <input type="submit" value="enviar mensaje" class="boton-de-contactos">
-                            <br>
-                            <input type="reset" value="limpiar formulario" class="borrar-contactos" />
-                            <br>
-                            <div>acepta los terminos y condiciones</div>
-                            <input type="checkbox" name="acepta" value="1" />
-                        </form>
-                    </div>
-                </section>
-            </form>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                <div class="invalid-feedback">
+                    ingrese un mail valido.
+                </div>
+            </div>
+
+            <div class="col-12">
+                <label for="address" class="form-label">direccion</label>
+                <input type="text" class="form-control" id="direccion" placeholder="1234 Main St" required="">
+                <div class="invalid-feedback">
+                    por favor indrodusca su direccion de envio.
+                </div>
+            </div>
+
+            <div class="col-12">
+                <label for="address2" class="form-label">direccion 2 <span class="text-muted">(Optional)</span></label>
+                <input type="text" class="form-control" id="direccion2" placeholder="Apartment or suite">
+            </div>
+
+            <div class="col-md-5">
+                <label for="country" class="form-label">pais/region</label>
+                <select class="form-select" id="pais" required="">
+                    <option value="">elegir...</option>
+                    <option>argentina</option>
+                </select>
+                <div class="invalid-feedback">
+                    por favor introduzca una direccion valida.
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <label for="provincia" class="form-label">provincia</label>
+                <select class="form-select" id="state" required="">
+                    <option value="">elegir...</option>
+                    <option>california</option>
+                </select>
+                <div class="invalid-feedback">
+                    por favor introduzca una provincia valida.
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <label for="zip" class="form-label">codigo postal</label>
+                <input type="text" class="form-control" id="codigo_postal" placeholder="" required="">
+                <div class="invalid-feedback">
+                    codigo postal requerido.
+                </div>
+            </div>
+        </div>
+
+
+
+
 
     </main>
 
