@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-final2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielrd95/primerrepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielrd95/primerrepo/issues"
+  },
+  "homepage": "https://github.com/gabrielrd95/primerrepo#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
