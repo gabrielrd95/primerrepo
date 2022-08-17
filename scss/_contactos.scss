@@ -1,0 +1,171 @@
+.contacto {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.contacto_img {
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto_imagenen {
+    width: 100%;
+}
+
+.contacto_1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 10px 0 15px;
+    width: 50%;
+}
+
+.contacto_titulo {
+    font-size: 100px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.contacto_formulario {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contacto_2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.contacto_label {
+    font-size: 18px;
+}
+
+.contacto_input {
+    height: 30px;
+    padding: 5px 0;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    color: black;
+    background-color: transparent;
+}
+
+.contacto_textarea {
+    height: 100px;
+    outline: none;
+    padding: 5px 0;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    color: black;
+    background-color: transparent;
+}
+
+.boton-de-contactos {
+    padding: 18px 55px;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.borrar-contactos {
+    padding: 18px 55px;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.contact__submit-button {
+    &:hover {
+        background-color: gray;
+    }
+}
+
+
+
+.pie-pagina {
+    width: 100%;
+    background-color: rgb(10, 66, 92);
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2,
+.pie-pagina .grupo-1 .box .h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: rgb(22, 108, 140);
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: rgb(6, 19, 137);
+}
+
+.pie-pagina .grupo-2 {
+    background-color: azure;
+    padding: 15px 10px;
+    text-align: center;
+    color: black;
+}
