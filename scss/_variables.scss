@@ -1,0 +1,21 @@
+.card {
+    @extend .contenido;
+    background-color: rgb(10, 66, 92);
+    color: white;
+
+    h3 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+@mixin tarjetas1 {
+    $width: 500px;
+    $height: 500px;
+}
+
+$primary-color: black;
+$text-color: white

@@ -1,0 +1,252 @@
+/* responsive */
+@media(max-width: 780px) {
+
+    .container {
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(1, auto);
+        ;
+        grid-template-areas:
+            "header header"
+            " main main"
+            "footer main";
+    }
+
+    .card {
+
+        width: 1000px;
+
+
+    }
+
+    p {
+
+        flex-direction: column;
+        width: 50%;
+        margin: 0;
+        padding: 0.5em;
+        ;
+
+
+    }
+
+    .card {
+        width: 50%;
+
+    }
+
+
+
+    h1 {
+        font-size: 3em;
+        width: 50%;
+        margin: 20px;
+        padding: 0.5em;
+
+
+
+    }
+
+    h2 {
+        font-size: 2em;
+        width: 350px;
+        padding: 0.7em;
+    }
+
+    .h3index {
+        font-size: 1.5em;
+        width: 250px;
+    }
+
+    .h3_historia {
+        font-size: 1.5em;
+        width: 400px;
+
+    }
+
+
+
+    .navegador {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 120px
+    }
+
+    nav li ul {
+        display: flex;
+
+    }
+
+    .pie-pagina .grupo-1 {
+        grid-template-columns: repeat(1, auto);
+        width: 90%;
+    }
+
+    .grupo-2 {
+        width: 370px;
+
+    }
+
+    .img_footer {
+
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        width: 500px;
+    }
+
+    .borrar-contactos,
+    .boton-de-contactos {
+        width: 100%;
+        font-size: 12px
+    }
+
+    .contacto_titulo {
+        font-size: 2em;
+        width: 70%;
+        margin: 20px;
+        padding: 0.5em;
+    }
+
+    .tarjeta-img {
+        width: 200px;
+    }
+
+
+    .tarjeta-img {
+        width: 400px;
+    }
+
+    .contacto_1 {
+        width: 800px;
+    }
+
+    .btn-group {
+        width: 100%;
+        flex-direction: column;
+
+    }
+}
+
+
+@media(max-width: 390px) {
+
+
+
+
+    .boton1 {
+        width: 150px;
+    }
+
+
+    header {
+        width: 450px;
+    }
+
+    p {
+
+        flex-direction: column;
+        width: 50%;
+        margin: 0;
+        padding: 0.5em;
+
+    }
+
+    .card {
+        width: 50%;
+
+    }
+
+
+
+    h1 {
+        font-size: 3em;
+        width: 50%;
+        margin: 20px;
+        padding: 0.5em;
+
+
+
+    }
+
+    h2 {
+        font-size: 2em;
+        width: 350px;
+        padding: 0.7em;
+    }
+
+    .h3index {
+        font-size: 1.5em;
+        width: 250px;
+    }
+
+    .h3_historia {
+        font-size: 1.5em;
+        width: 350px;
+
+    }
+
+
+
+    .navegador {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 120px
+    }
+
+    .pie-pagina .grupo-1 {
+        grid-template-columns: repeat(1, auto);
+        width: 90%;
+    }
+
+    .grupo-2 {
+        width: 290px;
+
+    }
+
+    .img_footer {
+
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        width: 200px
+    }
+
+    .borrar-contactos,
+    .boton-de-contactos {
+        width: 50%;
+        font-size: 8px
+    }
+
+    .contacto_titulo {
+        font-size: 2em;
+        width: 200px;
+        margin: 20px;
+        padding: 0.5em;
+    }
+
+    .tarjeta-img {
+        width: 200px;
+    }
+
+
+    .contacto_1 {
+        width: 700px;
+        grid-template-columns: repeat(1, auto);
+        width: 90%;
+    }
+
+    .contacto_2 {
+        width: 700px;
+        grid-template-columns: repeat(1, auto);
+
+
+    }
+
+    .contacto {
+        width: 800px;
+    }
+
+    .btn-group {
+        width: 100%;
+    }
+}
