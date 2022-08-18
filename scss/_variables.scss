@@ -1,3 +1,10 @@
+/* variables */
+$primary-color: rgb(10, 66, 92);
+$text-color: white;
+$secundary-color: black;
+$mobile: 768px;
+
+/* extend */
 .card {
     @extend .contenido;
     background-color: rgb(10, 66, 92);
@@ -11,11 +18,3 @@
         color: white;
     }
 }
-
-@mixin tarjetas1 {
-    $width: 500px;
-    $height: 500px;
-}
-
-$primary-color: black;
-$text-color: white

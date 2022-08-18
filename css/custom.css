@@ -442,6 +442,8 @@ p {
   color: black;
 }
 
+/* variables */
+/* extend */
 .card {
   background-color: rgb(10, 66, 92);
   color: white;
