@@ -7,7 +7,7 @@ header {
 
     nav {
         float: right;
-        color: white;
+        color: map-get($map: $palette, $key: "success");
 
         ul {
             li {
@@ -40,16 +40,16 @@ header {
 }
 
 .navbar-toggler {
-    background-color: white;
-    color: black;
+    background-color: map-get($map: $palette, $key: "success");
+    color: map-get($map: $palette, $key: "secondary");
 }
 
 .nav_color {
-    color: white;
+    color: map-get($map: $palette, $key: "success");
 }
 
 .nav-link {
-    color: white;
+    color: map-get($map: $palette, $key: "success");
 }
 
 .formulario2 {
@@ -58,5 +58,5 @@ header {
 
 .buscador1 {
     margin: 20px;
-    color: black;
+    color: map-get($map: $palette, $key: "secondary");
 }

@@ -1,3 +1,19 @@
+/* variables */
+/* extend */
+.card {
+  background-color: rgb(10, 66, 92);
+  color: white;
+}
+.card h3 {
+  color: white;
+}
+.card p {
+  color: white;
+}
+.card a {
+  color: white;
+}
+
 body {
   font-family: sans-serif;
   min-height: 100vh;
@@ -136,7 +152,7 @@ header nav ul li {
   margin: 20px;
   border-radius: 8px;
   overflow: hidden;
-  background-color: aliceblue;
+  background-color: rgb(10, 66, 92);
   cursor: default;
   box-shadow: 1px 2px 10px rgba(9, 9, 112, 0.2);
   border: 2px solid black;
@@ -160,7 +176,7 @@ header nav ul li {
   display: inline-block;
   padding: 12px;
   margin-top: 10px;
-  color: rgb(10, 66, 92);
+  color: white;
   border: 1px solid;
   border-radius: 5px;
 }
@@ -354,13 +370,13 @@ p {
 
 .pie-pagina .grupo-1 .box h2,
 .pie-pagina .grupo-1 .box .h2 {
-  color: #fff;
+  color: white;
   margin-bottom: 25px;
   font-size: 20px;
 }
 
 .pie-pagina .grupo-1 .box p {
-  color: #efefef;
+  color: white;
   margin-bottom: 10px;
 }
 
@@ -370,9 +386,9 @@ p {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  color: #fff;
+  color: white;
   margin-right: 10px;
-  background-color: rgb(22, 108, 140);
+  background-color: rgb(10, 66, 92);
   text-align: center;
   transition: all 300ms ease;
 }
@@ -440,19 +456,6 @@ p {
   padding: 15px 10px;
   text-align: center;
   color: black;
-}
-
-/* variables */
-/* extend */
-.card {
-  background-color: rgb(10, 66, 92);
-  color: white;
-}
-.card h3 {
-  color: white;
-}
-.card p {
-  color: white;
 }
 
 /* responsive */
