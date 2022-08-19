@@ -3,3 +3,11 @@
         @content;
     }
 }
+
+@mixin parrafos {
+    font-size: 1em;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: map-get($map: $palette, $key: "secondary");
+}
